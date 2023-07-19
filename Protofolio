@@ -1,0 +1,529 @@
+html file-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="folio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="whole">
+        <div id="div1">
+            <div id="navbar">
+                <div id="logo">Protofolio</div>
+                <div id="sidebar">
+                    <a href="#whole">Home</a>
+                    <a href="#edu">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certi">Certifications</a>
+                </div>
+            </div>
+        </div>
+        <div id="leftbar">
+            <div id="center">
+                <div id="middle">
+                    <p class="p1">I'm Jahnavi Munigeti</p>
+                    <p class="p2">Student at JNTU-GV</p>
+                    <p class="p3">I am an aspirant student,currently persuing my Btech in IT sector.I have knowlegde on C,python,JAVA,Data structures,html and css.I want to explore my skills to the real world.I want to gain more knowledge to increase my skills through an intership program.</p>
+                </div>
+                <div id="bottom">
+                    <div class="id1"><i class="fa-solid fa-address-card"></i>Contact:9392167420</div>
+                    <div class="id1"><i class="fa-regular fa-envelope"></i>Email:jahnavimunigeti@gmail.com</div>
+                    <div class="id1"><i class="fa-solid fa-location-dot"></i>Address:Cumbum,Prakasam dist,Andhra Pradesh</i></div>
+                </div>
+            </div>
+            <div id="right">
+    
+            </div>
+        </div>
+    </div>
+    <div id="edu">
+        <div id="education">
+            <div id="dd">Education</div>
+            <div id="aa">
+                <ul>
+                    <li class="li">High School<dl>I completed my schooling in Vasavi VidyaNiketan,Cumbum,Prakasam dist with 10 GPA in the year 2019</dl></li>
+                    <li class="li">Intermediate<dl>I completed my intership in Narayana junior college,Vijiawada with 95% in the year 2021</dl></li>
+                    <li class="li">Bachelor of Technology<dl>Present I am persuing my Btech in Jawaharlal Nehru Technological University-Gurajada,Vizianagaram in Information Technology.</dl></li>            
+                </ul>
+            </div>
+        </div>
+        <div id="school">
+            <i class="fa-solid fa-building-columns"></i>
+        </div>
+    </div>
+    <div id="skills">
+        <div id="lls">
+            <div id="jpc">
+                Skills
+            </div>
+            <div id="bars">
+                <div class="s1">
+                    <p>C</p>
+                    <div class="k1">
+                        <div id="i1">60</div>
+                    </div>
+                </div>
+                <div class="s1">
+                    <p>JAVA</p>
+                    <div class="k1">
+                        <div id="i2">30</div>
+                    </div>
+                </div>
+                <div class="s1">
+                    <p>Web Development</p>
+                    <div class="k1">
+                        <div id="i3">70</div>
+                    </div>
+                </div>
+                <div class="s1">
+                    <p>Python</p>
+                    <div class="k1">
+                        <div id="i4">50</div>
+                    </div>
+                </div>
+                <div class="s1">
+                    <p>Microsoft Excel</p>
+                    <div class="k1">
+                        <div id="i5">60</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pic">
+            <i class="fa-brands fa-python"></i>
+            
+        </div>
+        <div id="pic2">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <div id="pic3">
+            <i class="fa-brands fa-java"></i>
+        </div>
+    </div>
+    <div id="certi">
+        <div id="cat">
+            <div id="ion">
+                Certifications
+            </div>
+            <div id="award">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <div id="price">
+                <ul>
+                    <li>Java Foundation,Oracle</li>
+                    <li>C Language,codenz</li>
+                    <li>Microsoft Certified,Azure Administrator Associate</li>
+                    <li>Aws Cloud Essentials,Amazon</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+css file-
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#div1{
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(23, 23, 62);
+}
+#div1 #navbar{
+    position: fixed;
+    z-index: 3;
+}
+#logo{
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+}
+#sidebar{
+    width: 600px;
+    height: 30px;
+    display: flex;
+}
+    
+
+#sidebar a{
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar a:hover{
+    color: aqua;
+}
+
+
+#navbar{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#leftbar{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 130px;
+    background-color: rgb(23, 23, 62);
+}
+#middle{
+    position: absolute;
+    top: 170px;
+    width: 800px;
+    height: 500px;
+    left: 60px;
+}
+#middle .p1{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    position: relative;
+    color: aqua;
+}
+#middle .p2{
+    font-size: 30px;
+    color: white;
+    margin-top: 14px;
+    letter-spacing: 2px;
+    
+}
+#middle .p1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid aqua;
+    transition: 0.4s linear;
+}
+#middle .p1:hover::before{
+    width: 55%;
+}
+#middle .p3{
+    font-size: 20px;
+    color: white;
+    margin-top: 23px;
+    letter-spacing: 2px;
+}
+#right{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url('janum.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 155px;
+    width: 800px;
+    height: 500px;
+    left: 870px;
+}
+#bottom{
+    width: 400px;
+    height: 150px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top:400px;
+    left: 60px;
+}
+.id1{
+    width: 500px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 2px;
+}
+i{
+    margin-right: 5px;
+    font-size: 30px;
+}
+#edu{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 726px;
+    
+    background-color: rgb(23, 23, 62);
+    z-index: 2;
+}
+#education{
+    position: relative;
+    top: 260px;
+    left: 130px;
+    width: 700px;
+    height: 400px;
+    
+}
+#dd{
+    font-size: 35px;
+    color: aqua;
+    width: 700px;
+    font-weight: 3px;
+    position: relative;
+    letter-spacing: 3px;
+}
+#dd::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid aqua;
+    transition: 0.4s linear;
+    
+}
+#dd:hover::before{
+    width: 24%;
+}
+#aa .li{
+    font-size: 25px;
+    color: rgb(229, 236, 23);
+    margin-top: 5px;
+    list-style-type: square;
+}
+ul dl{
+    font-size: 20px;
+    color: white;
+    margin-top: 8px;
+}
+ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#school{
+    position: absolute;
+    top: 320px;
+    right: 300px;
+    width: 150px;
+    height: 150px;
+}
+#school i{
+    font-size: 200px;
+    color: white;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 1440px;
+    
+    background-color: rgb(23, 23, 62);
+}
+#lls{
+    position: absolute;
+    top: 260px;
+    left: 130px;
+    width: 700px;
+    height: 400px;
+}
+#jpc{
+    width: 150px;
+    height: 40px;
+    font-size: 35px;
+    font-weight: 3px;
+    letter-spacing: 3px;
+    border-radius: 6px;
+    color: aqua;
+    background-color: rgb(23, 23, 62);
+    margin-bottom: 15px;
+    animation: animate 3s linear 0s 1 normal;
+    padding-left: 2px;
+}
+@keyframes animate{
+    from{
+        color: aqua; 
+        background-color: rgb(23, 23, 62);
+    }
+    to{
+        color: white;
+        background-color: aqua;
+    }
+}
+#bars{
+    width: 800px;
+    height: 550px;
+    margin-top: 6px;
+}
+.s1{
+    width: 700px;
+    height: 50px;
+    display: flex;
+    
+}
+#bars p{
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    width: 150px;
+}
+.k1{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(161, 153, 153);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#i1{
+    width: 290px;
+    height: 20px;
+    background-color: rgb(229, 236, 23);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-left: none;
+}
+#i2{
+    width: 140px;
+    height: 20px;
+    background-color: rgb(229, 236, 23);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+#i3{
+    width: 325px;
+    height: 20px;
+    background-color: rgb(229, 236, 23);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+#i4{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(229, 236, 23);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+#i5{
+    width: 290px;
+    height: 20px;
+    background-color: rgb(229, 236, 23);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+#pic{
+    position: absolute;
+    top: 260px;
+    right: 320px;
+    width: 150px;
+    height: 150px;
+}
+#pic i{
+    font-size: 200px;
+    color: white;
+}
+#pic2{
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    width: 150px;
+    height: 150px;
+}
+#pic2 i{
+    font-size: 100px;
+    color: white;
+}
+#pic3{
+    position: absolute;
+    top: 420px;
+    right: 170px;
+    width: 150px;
+    height: 150px;
+}
+#pic3 i{
+    font-size: 130px;
+    color: white;
+}
+#certi{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 2160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 23, 62);
+}
+#cat{
+    width: 70%;
+    height: 60%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#ion{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 480px;
+    background-color: white;
+    color: rgb(6, 128, 128);
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 170px;
+    font-size: 25px;
+    font-weight: 20px;
+    letter-spacing: 2px;
+}
+#award i{
+    position: relative;
+    top: 130px;
+    left: 100px;
+    font-size: 180px;
+    color: gold;
+    width: 330px;
+}
+#award{
+    width: 90px;
+}
+#price{
+    width: 200%;
+    height: 60%;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+#price li{
+    font-size: 25px;
+    font-weight: 2px;
+    color: white;
+    width: 150%;
+    height: 40px;
+}
+#price ul{
+    list-style-type: circle;
+    color: gold;
+    width: 200%;
+    height: 50%;
+}
