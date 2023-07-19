@@ -1,0 +1,315 @@
+html file-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chef.css">
+</head>
+<body>
+    <header>
+        <div id="div1">
+            <div id="div3">
+                <div id="logo">
+
+                </div>
+                <p>Cooking</p><br>
+                <p>Time</p>
+            </div>
+            <div id="div5">
+                <a href="#" style="visibility: hidden;">Recepies</a>
+                <a href="#">Log in</a>
+                <a href="#">Sign up</a>
+            </div>
+            <div id="div4">
+                <a href="cooking.html">Register</a>
+            </div>
+        </div>
+    </header>
+    <div id="div2">
+        <p>Any body can Cook</p>
+        <div id="div6">Happiness is Homemade</div>
+        <div id="div7">Bon Appetit</div>
+        <div id="div8">Cook your favourite meal for yourself</div>
+        <div id="div9">Nothing brings people together like good food</div>
+        <div id="div11">
+            <div id="div10">Want to make food join us</div>
+            <a href="#">JOIN US</a>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+css-
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div2{
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.1)), url('cook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+#div2 p{
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div1{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("cooking.jpg");
+    background-size: cover;
+}
+#div5 a{
+    width: 160px;
+    height: 45px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: rgb(74, 72, 69);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 8px;
+    font-size: 20px;
+}
+#div5{
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#div3{
+    display: flex;
+}
+#div3 p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    padding-top: 17px;
+    padding-left: 6px;
+}
+#div4 a{
+    width: 180px;
+    height: 45px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: rgba(148, 13, 13, 0.578);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 8px;
+    font-size: 20px;
+    
+}
+#div4{
+    width: 180px;
+    display: flex;
+}
+    
+#div4:hover{
+    background-color: white;
+    color: black;
+}
+#div5 a:hover{
+    background-color: white;
+    color: black;
+}
+#div6{
+    position: absolute;
+    top: 300px;
+    font-size: 25px;
+    color: rgba(249, 247, 247, 0.673);
+    left: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#div6:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(250, 245, 244);
+    transition: 0.4s linear;
+}
+#div6:hover::before{
+    width: 29%;
+}
+#div7{
+    position: absolute;
+    top: 320px;
+    font-size: 25px;
+    color: rgba(249, 247, 247, 0.673);
+    left: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#div7:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(243, 230, 229);
+    transition: 0.4s linear;
+}
+#div7:hover::before{
+    width: 15%;
+}
+#div8{
+    position: absolute;
+    top: 340px;
+    font-size: 25px;
+    color: rgba(249, 247, 247, 0.673);
+    left: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#div8:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(243, 230, 229);
+    transition: 0.4s linear;
+}
+#div8:hover::before{
+    width: 45%;
+}
+#div9{
+    position: absolute;
+    top: 360px;
+    font-size: 25px;
+    color: rgba(252, 249, 249, 0.673);
+    left: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#div9:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(252, 251, 251);
+    transition: 0.4s linear;
+}
+#div9:hover::before{
+    width: 45%;
+}
+#div10{
+    position: absolute;
+    top: 380px;
+    font-size: 35px;
+    color: rgba(247, 135, 7, 0.949);
+    left: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    
+}
+#div11{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+#div11 a{
+    width: 180px;
+    height: 45px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: rgba(122, 9, 9, 0.925);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 8px;
+    font-size: 20px;
+    position: relative;
+    top: 380px;
+    left: 100px;
+}
+
+Registration file-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body style="width: 100%; height: 20vh; background-color: rgb(234, 134, 185);">
+    <div style="width: 100%; height: 80vh; background-color: rgb(234, 134, 185);">
+        <center>
+            <table border="5" cellpadding="10" style="background-color: rgb(216, 93, 159); margin-top: 25vh;">
+                <form>
+                    <tr>
+                        <td colspan="2" style="font-size: 45px;"><center>Cooking class registration</center></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input placeholder="Enter your name" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td><input placeholder="Enter your Mobile number" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td><select>
+                            <option>Indian</option>
+                            <option>Italian</option>
+                            <option>Chinese</option>
+                            <option>Thai</option>
+                            <option>Western</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Course duration</td>
+                        <td><input type="radio">One Month<input type="radio">Six Months<input type="radio">One year</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><center><input type="submit" value="SUBMIT"></center></td>
+                    </tr>
+                </form>
+            </table>
+            </center>
+    </div>
+    
+</body>
+</html>
+
+
